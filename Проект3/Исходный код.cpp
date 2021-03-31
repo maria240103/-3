@@ -11,10 +11,9 @@ int main()
 {
 	setlocale(0, "rus");
 	char path[] = "test.txt";
-	int length = 0;
-	cout << "Длина строки: "; cin >> length;
+	int length = 100000;
 	char* text = new char[length];
-	cout << "Строка: ";
+	cout << "Г‘ГІГ°Г®ГЄГ : ";
 	cin >> text;
 	setText(path, text, length);
 	getText(path, text, length);
